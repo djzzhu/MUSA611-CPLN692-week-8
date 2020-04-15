@@ -47,6 +47,8 @@ a cleaner, easier way to test ajax calls than simply using the console.
 
 Task 1: Use Mapbox's 'Search' API to 'geocode' information from your input
 
+Postman
+
 The docs: https://docs.mapbox.com/api/search/#geocoding
 (For this first task, the URL pattern you'll want to produce looks like this:
 `https://api.mapbox.com/geocoding/v5/mapbox.places/{geocode_this}.json?access_token={your_mapbox_token}`)
@@ -171,4 +173,3 @@ $(document).ready(function() {
   });
 
 });
-
